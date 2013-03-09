@@ -26,20 +26,12 @@ border-style:none;
 }
 
 h4.bullet {
-background:url(img/rect_black.gif) no-repeat left;
+background:url(resources/rect_black.gif) no-repeat left;
 padding-left:10px;
 }
 
 p.bullet {
 	padding:10px 20px;
-
-/*background:url(img/rect_black.gif) no-repeat left;*/
-/*
-padding-left:20px;
-padding-top: 20px;
-padding-bottom: 20px;
-*/
-/*margin:0px 0px 0px 10px;*/
 }
 
 #container {
