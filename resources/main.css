@@ -36,7 +36,7 @@ p.bullet {
 
 #container {
 width:1024px;
-background:#fff url('img/blades.png') no-repeat 100% 0;
+background:#fff url('resources/blades.png') no-repeat 100% 0;
 border:1px solid;
 margin:0 auto;
 }
