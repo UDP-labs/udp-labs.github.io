@@ -42,9 +42,6 @@ $(function () {
         mapTypeId: google.maps.MapTypeId.ROADMAP
     };
     var gMap = new google.maps.Map(document.getElementById('map_canvas'), mapOptions);
-//    var kmlLayer = new google.maps.KmlLayer('https://maps.google.com/maps/ms?ie=UTF8&t=m&authuser=0&msa=0&output=kml&msid=212043342089249462794.00048cfeb10fb9d85b995');
-//    kmlLayer.setMap(gMap);
-
 
     // custom udp marker created using http://powerhut.co.uk/googlemaps/custom_markers.php
     var image = new google.maps.MarkerImage(

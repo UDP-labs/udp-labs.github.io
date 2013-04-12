@@ -317,46 +317,8 @@ input[type="color"]:focus,
     margin: 0 auto;
     margin-bottom: 55px;
 }
-#about_us .section_header.team {
-    margin-top: 60px;
-}
-#about_us .teammate {
-    margin-bottom: 50px;
-}
-#about_us .teammate img {
-    margin-bottom: 10px;
-}
-#about_us .teammate h5 {
-    margin-bottom: 2px;
-}
-#about_us .teammate hr {
-    border-top: 1px solid #BDBFC2;
-    border-bottom: 2px solid white;
-}
-#about_us .teammate p.description {
-    font-size: 15px;
-    color: #57595C;
-    width: 80%;
-}
-#about_us .teammate .social {
-    margin-top: 15px;
-}
-#about_us .teammate .social a,
-#about_us .teammate .social a:hover {
-    text-decoration: none
-}
-#about_us .teammate .social a:hover {
-    opacity: 0.7;
-}
-#about_us .teammate .social i {
-    margin-right: 5px;
-}
-
-/* Portrait tablet to landscape and desktop */
-@media (min-width: 980px) {
-    #about_us .teammate > * {
-        margin-left: 25px;
-    }
+#about_us .content{
+    margin-bottom: 100px;
 }
 
 
