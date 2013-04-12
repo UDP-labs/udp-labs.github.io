@@ -3,9 +3,7 @@ UDP
 
 
 Om
-UDP AS er et norsk konsulentselskap. Vi er spesialister innen utvikling og teknisk arkitektur og
-
-Vi gjennomfører prosjekter for private og offentlige virksomheter innen strategisk rådgivning, utvikling av IT-systemer og design av digitale tjenester. 
+UDP AS er et norsk konsulentselskap. Vi er spesialister innen utvikling og teknisk arkitektur og gjennomfører prosjekter for private og offentlige virksomheter innen utvikling av IT-systemer og design av digitale tjenester. 
 
 UDP er et norsk konsulentselskap som primært fokuserer på Java og teknologier i Java-sfæren. 
 
@@ -78,6 +76,15 @@ http://www.iterate.no/
 http://www.miles.no/
 http://zenior.no/
 http://www.ixd.no/
+http://www.aspiria.no/
+
+
+Referanser:
+KLP
+EDB
+Evry
+Kongsberg
+
 
 
 Avklaringer:
