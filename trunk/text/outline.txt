@@ -25,6 +25,24 @@ for jobben.
 
 Systemutvikling handler ikke bare om å kunne skrive den feteste koden. Like viktig som det faglige er også sosiale egenskaper som å kunne kommunisere, samarbeide, spre kunnskap og skape engasjement. Se muligheter og ta de.
 
+                                            
+
+<p>
+    Vi blir ofte valgt på bakgrunn av anbefalinger fra tidligere prosjekter.
+</p>
+
+
+                                            
+Og vi er late med langsiktighet.
+
+Well, that's what software engineering/architecture/development is all about. And it's not about laziness, its about efficiency. Maintenance costs grow exponentially (in time, effort and money) when the base is poorly designed. The more money or effort you spend on the early stages of any development project, the more money squared you save in maintenance costs. I've seen tons of software projects to turn unprofitable because of lousy architectures, just because the project started as a quick fix after quick fix. It gets to a point where the project needs to be blown up and started from scratch, or be prepared to waste lots of money on maintenance.
+
+As for a term for this concept, maybe long-term laziness (kind of a humorous term) (good design, low maintenance costs) compared to short-term laziness (poor design, extremely high maintenance costs).
+
+I'm personally very lazy in nature, and that's why I work so hard when programming. I don't like to do things twice, and that's why I try to do them right from the beginning, even if it implies much more effort. I know that extra work will eventually pay off, and will let me lay on my back afterwards, or at least do the required work with minimum effort. Maybe plain oldsmartness, being smart, being time-smart or being effort-smart would do the trick.
+
+Long-term effort minimization strategies in any given activity would be another good and general alternative to describe these kind of situations.
+
 
 Når man leier en konsulent er det personen som 
 

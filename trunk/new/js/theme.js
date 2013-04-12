@@ -15,7 +15,10 @@ $(function () {
         }        
     });
 
-    $('#myCarousel').carousel('cycle');
+    $('#myCarousel').carousel({
+        interval: 5000
+
+    });
 
     // scroll back to top btn
     $('.scrolltop').click(function(){
