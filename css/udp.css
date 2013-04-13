@@ -216,6 +216,11 @@ input[type="color"]:focus,
 	background-repeat: repeat-x;
 	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#475B77', endColorstr='#475B77', GradientType=0);
 }
+
+.navbar .btn-navbar{
+	margin:20px;
+}
+
 .navbar .btn-navbar .icon-bar {
   display: block;
   width: 18px;
@@ -227,6 +232,7 @@ input[type="color"]:focus,
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
   box-shadow: none;
+
 }
 @media (max-width: 979px) {
 	.nav-collapse .nav > li > a:hover,
@@ -413,6 +419,28 @@ input[type="color"]:focus,
     background-color: #fff;
     margin-bottom: 40px;
 }
+
+@media (max-width: 700px) {
+	#references .thumbnail {
+		height: 150px;
+		width: 173px;
+		margin: 0 auto;
+	}
+
+	.section_header.team span {
+		white-space: nowrap;
+		width: 100%;
+	}
+
+	.span3.teammate {
+		text-align: center;
+	}
+	.span5.offset1{
+		margin-top: 30px;
+	}
+
+}
+
 #references .thumbnail:hover {
     box-shadow: 0px 0px 7px 0px #8cbe5b;
 }
