@@ -1,0 +1,213 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+        "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>UDP AS</title>
+    <link rel="stylesheet" href="main.css" type="text/css" media="screen" />
+
+</head>
+
+<body>
+<div id="container">
+	<div id="superheader">
+		etbl. 1337
+	</div>
+
+	<div id="header">
+			<a href="index.html"><img id="logo" src="img/logo_black.png" title="JavaSuperHeroes ;-)"/></a>
+	</div>
+	
+	<div id="subheader">
+		Java Software Consultancy
+	</div>
+
+	<div id="nav">
+		<ul>
+			<li><a href="javascript:" onclick="show(1)">Forside</a></li>
+			<li><a href="javascript:" onclick="show(2)">Tjenester</a></li>
+			<li><a href="javascript:" onclick="show(4)">Kontakt oss</a></li>
+		</ul>
+	</div>
+	<div id="content_forside" class="content">
+		<p class="bullet">
+		UDP er et norsk konsulentselskap som primært fokuserer på Java og teknologier i Java-sfæren. Vi er spesialister 
+		innen utvikling og teknisk arkitektur og deltar hovedsaklig i prosjekter ute hos kunden.
+		</p>
+		<hr />
+		<p class="bullet">
+		Felles for våre konsulenter er at vi er entusiaster med en brennende interesse for faget. Vi har
+		solide bakgrunner innen våre spesialområder og kjennetegnes av å være mennesker som identifiserer
+		seg sterkt med teknologien. Flere av våre konsulenter engasjerer seg i faglige frivillige
+		grupper og deltar aktivt i det sosiale omkring "Java-scenen". På denne måten holder vi et høyt faglig
+		nivå slik at vi kan gjøre de beste valgene og gi gode, kvalifiserte råd innen en bransje i
+		kontinuerlig endring.		
+		</p>
+		<hr/>
+		<p class="bullet">
+		Vi kan vise til en allsidig kundeportefølje med mange av Norges fremste virksomheter som
+		oppdragsgivere. Områder vi har erfaring med omfatter næringer som bank/finans, olje/gass,
+		telecom og farmasi, m. fl.		
+		</p>
+
+	</div>
+
+	<div id="content_tjenester" class="content" style="display:none;">
+		<p class="bullet">
+		UDP er en fleksibel og erfaren partner som kan tilby spisskompetanse og rådgivningstjenester
+		for produkter og teknologi som: 
+		<ul>
+			<li>Java EE</li>
+			<li>Spring Framework</li>
+			<li>Java persistens (JDBC, JPA, Hibernate, NoSQL, etc)</li>
+			<li>Testing og utvikling av testbar kode</li>
+			<li>UI & presentasjon (css, javascript, ajax-teknologier)</li>
+			<li>Design patterns</li>
+			<li>Integrasjonsteknologi som Web Services, Mule ESB, CORBA, RMI, etc</li>
+			<li>Java web teknologier som JSF, Wicket, Spring MVC, Struts, etc</li>
+			<li>Groovy/Grails</li>
+			<li>Maven & SCM (Subversion, Git, CVS, MKS, ClearCase)</li>
+			<li>App servers & containers (JBoss, WebSphere, WebLogic, Tomcat, Jetty, Glassfish)</li>
+		</ul>
+		</p>
+		<hr/>
+		<p class="bullet">
+		Vi kan fylle roller i prosjektbaserte engasjement, eller ta ansvar for hele leveranser.
+		</p>
+		<hr/>
+		<p class="bullet">
+		Våre utviklere har et bredt nettverk av ressurser å benytte når de står overfor utfordringer i prosjekter.
+		Å ha muligheten til å spille på hele utviklingsteamet vårt bidrar til at vi klarer å levere kvalitetsikrede
+		tjenester på en effektiv måte.
+		</p>
+	</div>
+
+	<div id="content_konsulenter" class="content" style="display:none;">
+		<p><h3>Konsulenter</h3></p>
+	</div>
+
+	<div id="content_kontakt" class="content" style="display:none;">
+		<p><h3>UDP AS</h3></p>
+		<p>
+			<h4 class="bullet">Forespørsler</h4>
+			Telefon: +47 904 08 237<br/>
+			E-post: &nbsp;<a href="mailto:post@udp.no">post@udp.no</a><br/>
+			<br/>
+		</p>
+		<hr/>
+		<p>
+			<h4 class="bullet">Adresse</h4>
+			Postboks 4814<br/>
+			0422 Oslo<br/>
+			<br/>
+		</p>
+		<hr/>
+		<p>
+			<h4 class="bullet">Daglig leder</h4>
+			Knut Øystein Bilden<br/>
+			+47 918 62 419<br/>		
+			<a href="mailto:kb@udp.no">kb@udp.no</a><br/>
+		</p>
+	</div>
+
+	<div class="sidebar">
+			<img id="sidebar_image" src="img/coffee.png" height="300px;"/>
+	</div>
+	
+	<div id="footer">
+		<p>UDP AS | orgnr 988 353 612 | tlf +47 904 08 237 | <a href="mailto:post@udp.no">post@udp.no</a></p>
+	</div>
+</div>
+
+	<script type="text/javascript">
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-5771120-2']);
+	  _gaq.push(['_trackPageview']);
+
+	  (function() {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	  })();
+	</script>
+
+	<script type='text/javascript' src='js/jquery-1.4.2.min.js'></script>
+	<script type='text/javascript'>
+	
+    $(document).ready(function() {
+    });
+
+
+	function show(contextElem) {
+
+//		$('div.content *').hide();
+	
+		if(contextElem == 1){
+				if($('#content_forside').is(':hidden')) {
+					$("#content_forside").animate({opacity: "show"}, "slow")
+
+					$('#content_forside').show();
+					$('#content_tjenester').hide();
+					$('#content_konsulenter').hide();
+					$('#content_kontakt').hide();
+					$("#sidebar_image").attr("src", "img/coffee.png");
+
+
+					//					$('.sidebar').hide();
+//					$('.sidebar').fadeIn(3000);
+//					$('#sidebar_image_coffee').hide();
+//					$('#sidebar_image_coffee').slideDown('fast');
+				}
+
+			} else if (contextElem == 2 ) {
+				if($('#content_tjenester').is(':hidden')) {
+					$("#content_tjenester").animate({opacity: "show"}, "slow")
+					$('#content_tjenester').show();
+					$('#content_forside').hide();
+					$('#content_konsulenter').hide();
+					$('#content_kontakt').hide();
+					$("#sidebar_image").attr("src", "img/duke_noshadow.png");
+					//					$('#content_tjenester').slideDown('fast');
+//					$('#sidebar_image_coffee').hide();
+//					$('#sidebar_image_coffee').slideDown('fast');
+				}
+
+			} 
+			else if (contextElem == 3 ) {
+				if($('#content_konsulenter').is(':hidden')) {
+					$("#content_konsulenter").animate({opacity: "show"}, "slow")
+					$('#content_konsulenter').show();
+					$('#content_forside').hide();
+					$('#content_tjenester').hide();
+					$('#content_kontakt').hide();
+					$("#sidebar_image").attr("src", "img/bonanza.jpg");
+
+//					$('#content_konsulenter').slideDown('fast');
+//					$('#sidebar_image_coffee').hide();
+//					$('#sidebar_image_coffee').slideDown('fast');
+				}
+			} else if (contextElem == 4 ) {
+				if($('#content_kontakt').is(':hidden')) {
+					$("#content_kontakt").animate({opacity: "show"}, "slow")
+					$('#content_kontakt').show();
+					$('#content_forside').hide();
+					$('#content_tjenester').hide();
+					$('#content_konsulenter').hide();
+					$("#sidebar_image").attr("src", "img/contact2.jpg");
+
+					//					$('#content_kontakt').slideDown('fast');
+//					$('#sidebar_image_coffee').hide();
+//					$('#sidebar_image_coffee').slideDown('fast');
+				}
+			}
+
+//			(function hidenext(jq) {
+//				jq.eq(0).fadeIn("fast", function() {(jq=jq.slice(1)).length && hidenext(jq);});
+//			})($('div.content *'))
+	}
+
+	</script>
+
+	</body>
+
+</html>

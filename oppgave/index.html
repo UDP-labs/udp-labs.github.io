@@ -1,0 +1,207 @@
+<html>
+<head>
+	<title>udp as - oppgave</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+	font-family: 'open sans';
+	background-color: #fff; 
+}
+.center {
+	width:300px;
+	margin:0 auto;
+	margin-top: 100px;
+	position: relative;
+	margin-bottom: 70px;
+}
+.center .u:before {
+	content:'';
+	position: absolute;
+	height:0px;
+	width:40px;
+	margin-left: -40px;
+	border-bottom: 20px #000 solid;
+}
+.center .u {
+	display: inline-block;
+	margin-right: 5px;
+    width: 90px;
+    height: 90px;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    border: 20px #000 solid;
+    border-top: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.center .u.d {
+	transform: rotate(90deg);
+	margin-right: 10px;
+}
+.center .u.p {
+	transform: rotate(270deg);
+}
+.pulse {
+  cursor: pointer;
+}
+.pulse:hover {
+  animation: pulse 1s infinite;
+}
+
+@-webkit-keyframes pulse { 
+	0% {border: 0px #000 solid; border-top: 0;} 
+	25% {border: 5px #000 solid; border-top: 0;} 
+	50% {border: 10px #000 solid; border-top: 0;} 
+	75% {border: 15px #000 solid; border-top: 0;} 
+	100% {border: 20px #000 solid; border-top: 0;} 
+} 
+
+.task {
+    width: 530px;
+    margin: 0 auto;
+    font-size: 13px;
+}
+
+@media (max-width: 768px) {
+.task {
+    width: auto;
+ }
+
+}
+
+
+
+</style>
+
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
+
+</head>
+<body><div class="center">
+	<div class="u pulse"></div>
+	<div class="u d pulse"></div>
+	<div class="u p pulse"></div>
+	</div>
+<div class="task">
+
+<h2>Oppgaver ifbm intervju</h2>
+<p>Hvis du har forvillet deg inn på disse sidene, så er det en viss sannsynlighet for at vi har ytret et ønske om å se hva du er god for.
+	<br><br>Hvis du av en eller annen grunn ikke er her i forbindelse med et intervju, men syntes at oppgavene er interessante så kan du jo løse dem og sende inn til oss. Kanskje du er god nok til å komme på intervju hos oss?
+
+<br><br>Når du er ferdig med oppgavene, sender du oss en mail på <a href="mailto:post@udp.no">post@udp.no</a> med en lenke til repositoriet du har opprettet i forbindelse med oppgavene.
+
+	<br><br>Lykke til med oppgaveløsningen!</p>
+
+
+<h2>Oppgave 1 - Java</h2>
+<p>
+Lag en Spring-basert java applikasjon som skal kunne kjøres fra en jar-fil. Denne applikasjonen skal inneholde en scheduled job som sender ut en mail 1 gang i timen med informasjon om hva slags vær det er på Svalbard (hentet fra yr.no).
+
+I tillegg til en README.md fil som beskriver hvordan man bygger og kjører applikasjonen, er enhetstester og integrasjonstester også en fin måte å "dokumentere" koden på.
+
+Forslag til teknologier dere kommer til å trenge her kan være httpclient, javamail og naturligvis Spring.
+
+Benytt gjerne Gradle eller Maven for å bygge prosjektet. Fint om du benytter github eller bitbucket.
+</p>
+<p>
+Bakgrunn:<br>
+
+Svært mange real life Java-prosjekter er bygget på Spring. Vi ønsker å se at du behersker grunnleggende ferdigheter for Spring og har kjennskap til konsepter som Dependency Injection. I tillegg ønsker vi å se hvordan du løser oppgaven og dokumenterer+tester koden.
+</p>
+
+<h2>Oppgave 2 - her kan du velge mellom 3 alternativer</h2>
+<b>Alternativ 1</b>
+<p>
+Eksponer svalbard-dataene dine fra oppgave 1 med en controller (her kan du bruke f.eks spring rest) som deler ut json (f.eks). Integrer nå med tjenesten i en javascript app som du skriver. Velg mellom angular, ember, meteor eller node.js (eller en variant av node). Visualiser været med css.
+</p>
+<p>Bakgrunn:<br>Her kan du vise at du klarer å visualisere data, og du får en mulighet til å vise at du kan javascript. Begge disse ferdighetene kan være viktige ute hos en kunde.</p>
+
+<b>Alternativ 2</b>
+<p>
+Lag et proof of concept for en frontend app som "pretty printer" en java stack trace string. Noe ala: http://jsonformatter.curiousconcept.com/ - men for java strack traces i stedet for json.
+
+Du står fritt til å gjøre begrensninger og forenklinger - og det trenger ikke være noen perfekt implementasjon. Men det bør være noe som viser at dette er noe som kan bygges videre på.
+
+Det er ikke noe krav, men hvis du er fancy kan du godt benytte gulp, grunt eller tilsvarende byggeverktøy. Fint om du benytter github eller bitbucket. Ingen begrensning på hvilken type nettleser eller "viewports" du velger å støtte.
+</p><p>
+Bakgrunn:<br>
+Vi ønsker å se at du har basic frontend-kunnskaper og vet hvordan du kan sette sammen en frontend-app. Videre er det i mange frontend-prosjekter også viktig å kunne vise til prototyper etter relativt kort tid - uten at ting trenger å være pixel perfect eller 100% ferdig.
+</p>
+<b>Alternativ 3</b>
+<p>
+Lag et "stacked barchart" fra vedlagt json-fil (data.json). Resultatet skal være en html-fil med tilhørende javascript. Her kan du f.eks bruke d3.js eller raphael.js for å lage grafen. Ingen begrensning på hvilken type nettleser eller "viewports" dere velger å støtte. Bonus hvis det også ser ok ut i IE8 (urgh), + mobil og nettbrett.
+</p>
+<p>Bakgrunn:<br>Ofte blir vi bedt om å lage grafrepresentasjoner av data for kunden og dette kan gjøres på mange måter. </p>
+		
+data.json
+<pre>{
+      "category1": [
+        {
+          "date": "2015-01-01",
+          "value": "0.8"
+        },
+        {
+          "date": "2015-01-02",
+          "value": "0.5"
+        },
+        {
+          "date": "2015-01-03",
+          "value": "1.2"
+        },
+        {
+          "date": "2015-01-04",
+          "value": "1.5"
+        },
+        {
+          "date": "2015-01-05",
+          "value": "1.1"
+        },
+        {
+          "date": "2015-01-06",
+          "value": "0.2"
+        },
+        {
+          "date": "2015-01-07",
+          "value": "0.3"
+        }
+      ],
+      "category0": [
+        {
+          "date": "2015-01-01",
+          "value": "0.1"
+        },
+        {
+          "date": "2015-01-02",
+          "value": "0.1"
+        },
+        {
+          "date": "2015-01-03",
+          "value": "0.6"
+        },
+        {
+          "date": "2015-01-04",
+          "value": "0.1"
+        },
+        {
+          "date": "2015-01-05",
+          "value": "0.1"
+        },
+        {
+          "date": "2015-01-06",
+          "value": "0.1"
+        },
+        {
+          "date": "2015-01-07",
+          "value": "0.1"
+        }
+      ]   
+}</pre>
+
+
+<br><br>
+
+	</div>
+
+</body>
+</html>

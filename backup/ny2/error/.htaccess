@@ -1,0 +1,7 @@
+Options IncludesNoExec
+AddOutputFilter Includes html
+AddHandler type-map var
+Order allow,deny
+Allow from all
+LanguagePriority en cs de es fr it nl sv pt-br ro
+ForceLanguagePriority Prefer Fallback

@@ -1,0 +1,167 @@
+body,html {
+background-color:#e0e0e0;
+font-size:small;
+font-family:Verdana, Verdana, Geneva, sans-serif;
+margin:10px 0 0;
+}
+
+hr {
+border:none;
+background-color:#D0E0EC;
+height:2px;
+}
+
+a:hover {
+color:#809CB3;
+text-decoration:underline;
+}
+
+a:active {
+color:#405567;
+text-decoration:underline;
+}
+
+img {
+border-style:none;
+}
+
+h4.bullet {
+background:url(img/rect_black.gif) no-repeat left;
+padding-left:10px;
+}
+
+p.bullet {
+	padding:10px 20px;
+
+/*background:url(img/rect_black.gif) no-repeat left;*/
+/*
+padding-left:20px;
+padding-top: 20px;
+padding-bottom: 20px;
+*/
+/*margin:0px 0px 0px 10px;*/
+}
+
+#container {
+width:1024px;
+background:#fff url('img/blades.png') no-repeat 100% 0;
+border:1px solid;
+margin:0 auto;
+}
+
+#superheader {
+position:absolute;
+margin-top: 15px;
+margin-left: 185px;
+font-size: 0.6em;
+font-weight: bold;
+font-family: tahoma;
+/*padding:20px 40px 70px 70px;*/
+}
+
+
+#header {
+background:url(img/head.jpeg) repeat-x;
+height:60px;
+padding:10px;
+}
+
+#subheader {
+position:absolute;
+margin-top: 24px;
+margin-left: 24px;
+font-weight: bold;
+font-family: tahoma;
+/*padding:20px 40px 70px 70px;*/
+}
+
+#nav {
+float:right;
+background:#333;
+}
+
+#nav ul {
+font-size:1.1em;
+text-transform:none;
+font-weight:100;
+font-variant:small-caps;
+margin:0;
+padding:0;
+}
+
+#nav ul li {
+list-style-type:none;
+display:inline;
+}
+
+#nav li a {
+display:block;
+float:left;
+color:#fff;
+text-decoration:none;
+border-right:1px solid #fff;
+padding:5px 10px;
+}
+
+#nav li a:hover {
+background:#809cb3;
+}
+
+#nav li a:current{
+background:#309CB3;
+}
+
+.content {
+float:left;
+margin-top:80px;
+width:525px;
+height:540px;
+padding:0px 20px;
+}
+
+.sidebar {
+position: absolute;
+width:380px;
+margin:180px 660px;
+}
+
+.profile_container {
+background: #eee;
+padding-left: 10px;
+}
+
+.profile_container img {
+float:right;
+height: 100px;
+}
+
+
+#footer {
+text-align:center;
+bottom:0;
+margin-bottom:0;
+width:100%;
+text-transform:none;
+color:#ccc;
+font-size:1em;
+clear:both;
+font-family:Verdana,Helvetica,Arial, sans-serif;
+padding:5px 0;
+}
+
+#footer a {
+color:#ccc;
+}
+
+#footer p {
+margin:0;
+}
+
+* html #footer {
+height:1px;
+}
+
+a:link,a:visited {
+color:#809CB3;
+text-decoration:none;
+}
